@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=600 height=960 style="width: 600px; height: 960px; background: #231F20"></canvas>
-    <script src="Build/Build.loader.js"></script>
+    <script src="Build/SpaceGameBuild.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Build.data",
-        frameworkUrl: "Build/Build.framework.js",
-        codeUrl: "Build/Build.wasm",
+        dataUrl: "Build/SpaceGameBuild.data",
+        frameworkUrl: "Build/SpaceGameBuild.framework.js",
+        codeUrl: "Build/SpaceGameBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "build",
